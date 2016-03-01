@@ -2,9 +2,14 @@ What happens when you initialize a repository? Why do you need to do it?
 
 	creates an empty repository (.git)
 	to create the empty contain for the files I want to add
+	git init
+	git status
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+	logically, it acts as work space; actually, I think it adds pointers to the real file in the directory to compare against the repository
+	its value: it provides a logical place to make changes before comitting them to the repository
 
 How can you use the staging area to make sure you have one commit per logical
 change?
