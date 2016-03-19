@@ -14,14 +14,27 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	make sure I only add the files that correspond to a logical change
+	
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	it would be helpful to experiment without affecting the master branch
+
 How do the diagrams help you visualize the branch structure?
+
+	they show where the common points are
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	merging them allows a programmer to combine two different tracks of work into one
+	to make it easier to understand
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+	automatic merging permits logical merges that would be time consuming
+	manual merging permits the user(s) to control conflicts in automatic merges
+	
 
